@@ -62,6 +62,12 @@ nav {
 
 /* PLANNING SECTION */
 
+/* PARTNERS SECTION */
+.text-partners, .row-partner {
+    border: 1px solid red;
+}
+
+
 /* TABLET */
 @media screen and (min-width: 768px) {
     /* INTRO SECTION */
