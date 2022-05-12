@@ -67,6 +67,10 @@ nav {
     border: 1px solid red;
 }
 
+/* BENEFITS SECTION */
+
+/* ABOUT US SECTION */
+
 
 /* TABLET */
 @media screen and (min-width: 768px) {
@@ -88,6 +92,16 @@ nav {
     /* BENEFITS SECTION */
     .benefits-col {
         width: 50%;
+    }
+    /* ABOUT US SECTION */
+    #about-us .columns {
+        flex-wrap: nowrap;
+    }
+    .left-col, .right-col {
+        padding: 0 3rem;
+    } 
+    .right-col {
+        flex-shrink: 2;
     }
 }
 
