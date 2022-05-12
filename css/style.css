@@ -70,17 +70,24 @@ nav {
 
 /* TABLET */
 @media screen and (min-width: 768px) {
-    /* INTRO SECTION */
-    .intro-columns {
+    /* COMMON */
+    .margin-columns {
         margin-left: -1rem;
         margin-right: -1rem;
     }
+    .padding-col {
+        padding: 0 1rem;
+    }
+    /* INTRO SECTION */
     .intro-col {
         width: calc( 100% / 3 );
-        padding: 0 1rem;
     }
     .intro-col:first-child {
         width: calc((100% / 3) * 2);
+    }
+    /* BENEFITS SECTION */
+    .benefits-col {
+        width: 50%;
     }
 }
 
@@ -102,6 +109,10 @@ nav {
     }
     .planning-col {
         width: calc( 50% - 1rem );
+    }
+    /* BENEFITS SECTION */
+    .benefits-col {
+        width: calc( 100% / 3 )
     }
 
 }
