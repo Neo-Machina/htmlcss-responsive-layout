@@ -6,6 +6,49 @@
 }
 
 /* MOBILE FIRST */
+/* COMMON */
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.mobile-padding {
+    padding: 0 2rem;
+}
+
+/* HEADER */
+header {
+    height: 85px;
+    color: white;
+    background-color: #0084fd;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.menu {
+    display: none;
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+    /* HEADER */
+    .menu {
+        display: block;
+    }
+    .burger-menu {
+        display: none;
+    }
+
 }
