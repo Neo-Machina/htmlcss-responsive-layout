@@ -17,7 +17,8 @@ body {
 }
 
 .mobile-padding {
-    padding: 0 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 /* HEADER */
@@ -36,9 +37,36 @@ nav {
     display: none;
 }
 
+/* MAIN */
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.intro-columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+.intro-col {
+    width: 100%;
+
+    /* TEST */
+    border: 1px solid red;
+}
+
 /* TABLET */
 @media screen and (min-width: 768px) {
-
+    /* INTRO SECTION */
+    .intro-columns {
+        margin-left: -1rem;
+        margin-right: -1rem;
+    }
+    .intro-col {
+        width: calc( 100% / 3 );
+        padding: 0 1rem;
+    }
+    .intro-col:first-child {
+        width: calc((100% / 3) * 2);
+    }
 }
 
 /* DESKTOP */
