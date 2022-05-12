@@ -29,6 +29,7 @@ section {
 .columns {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .col {
     width: 100%;
@@ -72,7 +73,9 @@ nav {
 /* ABOUT US SECTION */
 
 /* GET STARTED SECTION */
-
+.center-col {
+    max-width: calc(1170px / 3);
+}
 /* FOOTER */
 footer {
     background-color: #333333;
@@ -104,16 +107,12 @@ footer {
     #about-us .columns {
         flex-wrap: nowrap;
     }
-    .left-col, .right-col {
-        padding: 0 3rem;
-    } 
     .right-col {
         flex-shrink: 2;
     }
     /* GET STARTED SECTION */
-    #center .columns {
-        justify-content: center;
-    }
+    
+    /* FOOTER */
 }
 
 /* DESKTOP */
@@ -138,6 +137,10 @@ footer {
     /* BENEFITS SECTION */
     .benefits-col {
         width: calc( 100% / 3 )
+    }
+    /* ABOUT US SECTION */
+    .left-col, .right-col {
+        padding: 0 2rem;
     }
 
 }
