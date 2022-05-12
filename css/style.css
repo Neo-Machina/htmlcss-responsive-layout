@@ -21,6 +21,25 @@ body {
     padding-right: 2rem;
 }
 
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+    width: 100%;
+
+    /* TEST */
+    border: 1px solid red;
+}
+
+.purple-background {
+    background-color: #9792e4;
+}
 /* HEADER */
 header {
     height: 85px;
@@ -38,20 +57,10 @@ nav {
 }
 
 /* MAIN */
-section {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-.intro-columns {
-    display: flex;
-    flex-wrap: wrap;
-}
-.intro-col {
-    width: 100%;
+/* INTRO SECTION */
 
-    /* TEST */
-    border: 1px solid red;
-}
+
+/* PLANNING SECTION */
 
 /* TABLET */
 @media screen and (min-width: 768px) {
@@ -77,6 +86,16 @@ section {
     }
     .burger-menu {
         display: none;
+    }
+    /* PLANNING SECTION */
+    #planning .container {
+        max-width: 900px;
+    }
+    .planning-columns {
+        justify-content: space-between;
+    }
+    .planning-col {
+        width: calc( 50% - 1rem );
     }
 
 }
