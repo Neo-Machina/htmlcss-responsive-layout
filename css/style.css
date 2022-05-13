@@ -102,10 +102,14 @@ nav {
     background-color: #b5ddff;
     border-radius: 20px;
     padding: 2rem 1.5rem;
+    height: 100%;
 }
 .flex-card {
     display: flex;
     flex-wrap: wrap;
+}
+.r-pad-del {
+    padding-bottom: 0;
 }
 .img-col {
     display: flex;
@@ -127,6 +131,7 @@ nav {
 }
 .nth-intro-col {
     text-align: center;
+    height: 100%;
 }
 .icon-intro {
     font-size: 5rem;
@@ -134,6 +139,53 @@ nav {
 }
 
 /* PLANNING SECTION */
+#planning {
+    color: white;
+}
+#planning p {
+    font-size: 14px;
+}
+/* LEFT CARD */
+.card-planning-left img {
+    margin-bottom: 5rem;
+}
+.card-planning-left h3 {
+    font-size: 26px;
+}
+.card-planning-left p {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+/* RIGHT CARD */
+.card-planning-right {
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    text-align: center;
+    padding: 0 1rem 2rem;
+}
+.card-planning-right img {
+    margin: 3rem 0 1.5rem;
+}
+.card-planning-right h3 {
+    font-size: 21px;
+}
+.card-planning-right p {
+    margin: 1.5rem 0;
+}
+.purple-circle {
+    background-color: #9792e4;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.flex-purple {
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
 
 /* PARTNERS SECTION */
 .text-partners, .row-partner {
@@ -171,10 +223,6 @@ footer {
     .intro-col:first-child {
         width: calc((100% / 3) * 2);
     }
-    .pad-card {
-        padding-bottom: 222px;
-    }
-
     /* BENEFITS SECTION */
     .benefits-col {
         width: 50%;
@@ -212,9 +260,6 @@ footer {
     }
     .img-col img {
         max-width: 200px;
-    }
-    .pad-card {
-        padding-bottom: 0;
     }
     /* PLANNING SECTION */
     #planning .container {
