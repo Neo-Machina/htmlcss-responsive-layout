@@ -14,6 +14,17 @@ body {
 img {
     width: 100%;
 }
+.square-img-box {
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: pink;
+}
+.square-img-box img {
+    height: 100%;
+    object-fit: cover;
+}
 
 .container {
     max-width: 1170px;
@@ -191,6 +202,21 @@ nav {
 .text-partners, .row-partner {
     border: 1px solid red;
 }
+.text-partners {
+    text-align: center;
+}
+.row-partner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.col-picture {
+    flex-shrink: 2;
+}
+.name-col {
+    padding: 0 1rem;
+}
 
 /* BENEFITS SECTION */
 
@@ -235,6 +261,11 @@ footer {
         margin: 6rem auto 8.5rem;
         display: block;
     }    
+    /* PARTNERS SECTION */
+    .row-partner {
+        flex-wrap: nowrap;
+        text-align: unset;
+    }
     /* BENEFITS SECTION */
     .benefits-col {
         width: 50%;
