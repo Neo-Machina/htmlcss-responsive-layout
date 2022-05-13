@@ -147,7 +147,7 @@ nav {
 }
 /* LEFT CARD */
 .card-planning-left img {
-    margin-bottom: 5rem;
+    margin: 1rem 0 5rem;
 }
 .card-planning-left h3 {
     font-size: 26px;
@@ -223,6 +223,18 @@ footer {
     .intro-col:first-child {
         width: calc((100% / 3) * 2);
     }
+    /* PLANNING SECTION */
+    .card-planning-left img {
+        margin-top: 5rem;
+    }
+    .card-planning-left h3 {
+        font-size: 60px;
+    }
+    .card-planning-left img {
+        width: 90%;
+        margin: 6rem auto 8.5rem;
+        display: block;
+    }    
     /* BENEFITS SECTION */
     .benefits-col {
         width: 50%;
@@ -266,14 +278,28 @@ footer {
         max-width: 900px;
     }
     .planning-columns {
+        flex-wrap: nowrap;
         justify-content: space-between;
     }
     .planning-col {
         width: calc( 50% - 1rem );
     }
+    .card-planning-left img {
+        width: 100%;
+        margin: 6rem 0 8.5rem;
+    }
+    .flex-end-col {
+        align-self: flex-end;
+    }
+    #planning p {
+        font-size: 12px;
+    }
     /* BENEFITS SECTION */
     .benefits-col {
         width: calc( 100% / 3 )
+    }
+    .card-planning-left h3 {
+        font-size: 25px;
     }
     /* ABOUT US SECTION */
     .left-col, .right-col {
