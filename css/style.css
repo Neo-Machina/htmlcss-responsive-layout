@@ -137,6 +137,10 @@ nav {
     display: inline-block;
     margin: 28px 0;
 }
+.apple-button a {
+    text-decoration: none;
+    color: inherit;
+}
 .apple-button span {
     margin: 0 2px;
 }
@@ -200,11 +204,6 @@ nav {
 
 /* PARTNERS SECTION */
 /* TEXT-PARTNERS */
-
-/* test */
-.text-partners, .row-partner {
-    border: 1px solid red;
-}
 .text-partners {
     text-align: center;
     margin-bottom: 3rem;
@@ -231,9 +230,6 @@ nav {
     color: white;
     padding: 2rem 0;
 }
-.col-picture {
-    
-}
 .name-col {
     padding: 0 1rem;
 }
@@ -246,6 +242,51 @@ nav {
 }
 
 /* BENEFITS SECTION */
+#benefits {
+    margin-bottom: -1rem;
+    padding-bottom: 1rem;
+}
+#benefits h2 {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    margin-bottom: 4.5rem;
+}
+.benefits-col {
+    margin-bottom: 2rem;
+}
+.card-benefits {
+    background-color: white;
+    border-radius: 20px;
+    padding: 2rem;
+}
+.card-benefits div:first-child, h3 {
+    color: #9792e4;
+}
+.card-benefits div:first-child {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.card-benefits h3 {
+    font-size: 21px;
+    margin: 1rem 0;
+}
+.card-benefits p {
+    line-height: 2;
+}
+.more-button {
+    color: white;
+    display: inline-block;
+    background-color: #9792e4;
+    padding: 8px 45px;
+    border-radius: 20px;
+    margin-top: 1rem;
+}
+.more-button a {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 /* ABOUT US SECTION */
 
