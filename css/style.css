@@ -11,6 +11,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+img {
+    width: 100%;
+}
+
 .container {
     max-width: 1170px;
     margin: 0 auto;
@@ -76,11 +80,58 @@ nav {
     border-radius: 20px;
 }
 
-
-
 /* MAIN */
 /* INTRO SECTION */
+#intro {
+    margin-bottom: -1.5rem;
+}
+.intro-col {
+    margin-bottom: 1.5rem;
+}
+#intro h3 {
+    padding-bottom: 28px;
+    color: #0084fd;
+    font-size: 21px;
+}
 
+#intro p {
+    color: #647a8d;
+    font-size: 14px;
+}
+.card {
+    background-color: #b5ddff;
+    border-radius: 20px;
+    padding: 2rem 1.5rem;
+}
+.flex-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-col {
+    display: flex;
+    align-items: flex-end;
+}
+.img-col img {
+    max-width: 250px;
+}
+.apple-button {
+    color: white;
+    background-color: #0084fd;
+    border-radius: 20px;
+    padding: 8px 45px;
+    display: inline-block;
+    margin: 28px 0;
+}
+.apple-button span {
+    margin: 0 2px;
+}
+.nth-intro-col {
+    text-align: center;
+}
+.icon-intro {
+    font-size: 5rem;
+    color: #0084fd;
+}
 
 /* PLANNING SECTION */
 
@@ -120,6 +171,10 @@ footer {
     .intro-col:first-child {
         width: calc((100% / 3) * 2);
     }
+    .pad-card {
+        padding-bottom: 222px;
+    }
+
     /* BENEFITS SECTION */
     .benefits-col {
         width: 50%;
@@ -145,6 +200,22 @@ footer {
     .burger-menu {
         display: none;
     }
+    /* INTRO SECTION */
+    .r-pad-del {
+        padding-right: 0;
+    }
+    .flex-card {
+        flex-wrap: nowrap;
+    }
+    .img-col {
+        justify-content: center;
+    }
+    .img-col img {
+        max-width: 200px;
+    }
+    .pad-card {
+        padding-bottom: 0;
+    }
     /* PLANNING SECTION */
     #planning .container {
         max-width: 900px;
@@ -163,5 +234,4 @@ footer {
     .left-col, .right-col {
         padding: 0 2rem;
     }
-
 }
