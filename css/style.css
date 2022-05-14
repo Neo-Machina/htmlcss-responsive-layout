@@ -388,6 +388,13 @@ nav {
 /* FOOTER */
 footer {
     background-color: #333333;
+    font-size: 13px;
+}
+footer a {
+    color: #9792e4;
+}
+.footer-col div:first-child {
+    margin-bottom: 3.5rem;
 }
 
 /* TABLET */
@@ -473,6 +480,9 @@ footer {
         font-size: 14px;
     }
     /* FOOTER */
+    footer {
+        font-size: 15px;
+    }
 }
 
 /* DESKTOP */
