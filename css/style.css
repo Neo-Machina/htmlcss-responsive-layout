@@ -166,6 +166,7 @@ nav {
 }
 .card-planning-left h3 {
     font-size: 26px;
+    color: inherit;
 }
 .card-planning-left p {
     margin-top: 3rem;
@@ -287,8 +288,60 @@ nav {
     color: inherit;
 }
 
-
 /* ABOUT US SECTION */
+/* LEFT-COL */
+#about-us h2 {
+    font-size: 50px;
+    color: #9792e4;
+    margin: 2rem 0;
+}
+.left-col p {
+    line-height: 2.2;
+    margin-bottom: 3rem;
+}
+/* RIGHT-COL */
+.square-img-aboutus {
+    width: 180px;
+    height: 180px; 
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+}
+.square-quote {
+    position: relative;
+    margin: 2rem 0;
+}
+.quote-left {
+    font-size: 4.3rem;
+    color: #9792e4;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 6.4rem;
+    left: 8rem;
+}
+.help {
+    color: #9792e4;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-top: 1.5rem;
+}
+.about-us-button {
+    background-color: #9792e4;
+    padding: 7px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    color: white;
+    margin: 2rem 0 3rem;
+}
+.about-us-button a {
+    text-decoration: none;
+    color: inherit;
+    padding-right: 5px;
+}
+
 
 /* GET STARTED SECTION */
 .center-col {
@@ -342,10 +395,22 @@ footer {
     /* ABOUT US SECTION */
     #about-us .columns {
         flex-wrap: nowrap;
+        margin: 2rem;
+    }
+    .left-col {
+        padding-right: 4.5rem;
     }
     .right-col {
         flex-shrink: 2;
     }
+    .square-img-aboutus {
+        width: 230px;
+        height: 230px;
+    } 
+    .quote-left {
+        bottom: 10rem;
+        left: 11rem;
+    }   
     /* GET STARTED SECTION */
     
     /* FOOTER */
@@ -405,4 +470,12 @@ footer {
     .left-col, .right-col {
         padding: 0 2rem;
     }
+    .square-img-aboutus {
+        width: 180px;
+        height: 180px;
+    }  
+    .quote-left {
+        bottom: 6.4rem;
+        left: 8rem;
+    }    
 }
