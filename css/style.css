@@ -41,10 +41,6 @@ section {
     padding-bottom: 3rem;
 }
 
-ul {
-    list-style-type: none ;
-}
-
 .columns {
     display: flex;
     flex-wrap: wrap;
@@ -80,6 +76,9 @@ nav {
 }
 .list-flex {
     display: flex;
+}
+.menu ul {
+    list-style-type: none ;
 }
 .menu a {
     text-decoration: none;
@@ -342,16 +341,54 @@ nav {
     padding-right: 5px;
 }
 
-
 /* GET STARTED SECTION */
 .center-col {
-    max-width: calc(1170px / 3);
+    text-align: center;
+    color: white;
+}
+.line-break{
+    display: none;
+}
+.get-started-col div:first-child {
+    color: #c4c1ef;
+    font-size: 18px;
+}
+.get-started-col h3{
+    color: inherit;
+    font-size: 25px;
+    margin: 1rem 0;
+}
+.get-started-col h2 {
+    color: #fdc15f;
+    font-size: 50px;
+}
+.get-started-col div:nth-child(4) {
+    font-size: 14px;
+    margin: 2rem 0;
+}
+.started-button {
+    display: inline-block;
+    background-color: white;
+    padding: 20px 70px;
+    border-radius: 30px;
+}
+.started-button a {
+    text-decoration: none;
+    color: #9792e4;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.privacy {
+    font-size: 12px;
+    margin: 2rem 0;
+}
+.privacy a {
+    color: inherit;
 }
 /* FOOTER */
 footer {
     background-color: #333333;
 }
-
 
 /* TABLET */
 @media screen and (min-width: 768px) {
@@ -400,6 +437,9 @@ footer {
     .left-col {
         padding-right: 4.5rem;
     }
+    #about-us h2 {
+        font-size: 60px;
+    }
     .right-col {
         flex-shrink: 2;
     }
@@ -412,7 +452,26 @@ footer {
         left: 11rem;
     }   
     /* GET STARTED SECTION */
-    
+    .line-break{
+        display: initial;
+    }
+    .get-started-col h3{
+        font-size: 45px;
+    }
+    .get-started-col h2 {
+        font-size: 90px;
+    }
+    .get-started-col div:nth-child(4) {
+        font-size: 16px;
+    }
+    .started-button {
+        padding: 30px 90px;
+        border-radius: 50px;
+        font-size: 18px;
+    }
+    .privacy {
+        font-size: 14px;
+    }
     /* FOOTER */
 }
 
@@ -470,12 +529,4 @@ footer {
     .left-col, .right-col {
         padding: 0 2rem;
     }
-    .square-img-aboutus {
-        width: 180px;
-        height: 180px;
-    }  
-    .quote-left {
-        bottom: 6.4rem;
-        left: 8rem;
-    }    
 }
