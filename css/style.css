@@ -346,8 +346,8 @@ nav {
     text-align: center;
     color: white;
 }
-.line-break{
-    display: none;
+.get-started-col {
+    max-width: 700px;
 }
 .get-started-col div:first-child {
     color: #c4c1ef;
@@ -392,6 +392,9 @@ footer {
 }
 footer a {
     color: #9792e4;
+}
+.footer-col {
+    max-width: 500px;
 }
 .footer-col div:first-child {
     margin-bottom: 3.5rem;
@@ -470,6 +473,7 @@ footer a {
     }
     .get-started-col div:nth-child(4) {
         font-size: 16px;
+        padding: 0 5rem;
     }
     .started-button {
         padding: 30px 90px;
@@ -482,6 +486,9 @@ footer a {
     /* FOOTER */
     footer {
         font-size: 15px;
+    }
+    .footer-col {
+        padding: 0 30px;
     }
 }
 
